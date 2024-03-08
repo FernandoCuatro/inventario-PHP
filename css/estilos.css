@@ -1,0 +1,698 @@
+/* class => .class */
+
+/* id => #id */
+
+/* Agregamos la fuente desde la API */
+@import url('https://fonts.googleapis.com/css2? family = PT + Sans & display = swap');
+
+/* 
+ * Estilos trabajados por Magali
+ * 
+
+/* Tipo de letra para el body */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* ****************************************
+ * ESTILOS QUE POSEE LA BARRA DE NAVEGACION
+ * ****************************************
+
+/* Estilos para la barra de navegacion */
+header#navegacion {
+    width: 100%;
+    height: 120px;
+    background-color: #14213d;
+    float: left;
+}
+
+/* Estructura para la barra de navegacion  */
+div.celda-imagen {
+    width: 20%;
+    height: 5%;
+    text-align: center;
+}
+
+img.imagen-barra {
+    width: 50%;
+}
+
+a.enlace-barra {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+nav.celda-barra {
+    margin-top: 3%;
+    margin-left: 200px;
+}
+
+nav.celda-barra ul, nav.celda-barra li {
+    margin: 0;
+    padding: 0;
+}
+
+nav.celda-barra ul {
+    list-style: none;
+    width: 100%;
+}
+
+nav.celda-barra li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+nav.celda-barra a {
+    display: block;
+    font-size: 1.3em;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav.celda-barra li.celda-login {
+    margin-left: 250px;
+}
+
+img.logo-usuario {
+    width: 10px;
+}
+
+a.enlace-barra-usuario {
+    color: white;
+    text-decoration: none;
+}
+
+/* ****************************************
+ * ESTILOS QUE POSEE EL INICIO
+ * ****************************************
+
+/* Estilos para la estrucura de  inicio  */
+section#inicio {
+    width: 100%;
+    border: none;
+}
+
+/* Estructura de la section de inicio  */
+div.texto-presentacion {
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+}
+
+div.texto-presentacion h1 {
+    font-size: 100px;
+}
+
+div.texto-presentacion h3 {
+    font-size: 20px;
+}
+
+div.imagen-presentacion {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+div.imagen-presentacion img {
+    width: 70%;
+    text-align: center;
+}
+
+/* ****************************************
+ * ESTILOS QUE POSEE EL FOOTER
+ * ****************************************
+
+/* Estilos para el footer  */
+table#footer {
+    background-color: black;
+    width: 100%;
+    border: none;
+}
+
+/* Estilos  de las celdas del footer + la barra de enlaces  */
+div.contenido-footer {
+    background-color: #000;
+    width: 33%;
+    height: 300px;
+    float: left;
+    border: 2px solid black;
+}
+
+div.imagen-footer {
+    text-align: center;
+}
+
+div.imagen-footer img {
+    width: 60%;
+    margin-top: 30px;
+}
+
+div.footer-barra {
+    text-align: center;
+}
+
+div.footer-barra h2 {
+    color: white;
+}
+
+div.footer-barra a.footer-enlaces {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+}
+
+div.footer-social {
+    text-align: center;
+}
+
+div.footer-social h2 {
+    color: white;
+}
+
+div.centrar-social {
+    text-align: center;
+}
+
+div.espacio-social a {
+    text-align: center;
+    width: 30%;
+}
+
+img.imagen-social {
+    width: 10%;
+}
+
+/*  Fin de estilos de Magali */
+
+/* ****************************************
+ * ****************************************
+ * ****************************************
+
+
+/* 
+ * Estilos trabajados por Saul
+ * 
+
+/* ****************************************
+ * ESTILOS QUE POSEEN LAS CATEGORIAS
+ * ****************************************
+
+/* Estilos para la tabla de categorias */
+section#categorias {
+    width: 100%;
+    border: none;
+    background-color: #eef3f7;
+}
+
+/* Estilo para las celdas */
+div.texto-categoria h1 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 40px;
+}
+
+/* Estilos para las iamgenes de categorias */
+div.imagen-bebida-categoria {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+img.imagen-bebida {
+    width: 60%;
+}
+
+div.imagen-food-categoria {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+img.imagen-new-food {
+    width: 60%;
+}
+
+div.imagen-snacks-categoria {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+img.imagen-snacks {
+    width: 60%;
+}
+
+/* Estilos para el texto de categorias */
+div.bebidas h2 {
+    width: 33%;
+    font-size: 100;
+    text-align: center;
+    color: #7874f9;
+    float: left;
+}
+
+div.comida-rapida h2 {
+    width: 33%;
+    font-size: 100;
+    text-align: center;
+    color: #1c2a9a;
+    float: left;
+}
+
+div.snacks h2 {
+    width: 33%;
+    font-size: 100;
+    text-align: center;
+    color: #00a6ef;
+    float: left;
+}
+
+/*  Fin de estilos de Saul */
+
+/* ****************************************
+ * ****************************************
+ * ****************************************
+
+/* 
+ * Estilos trabajados por Daniel
+ * 
+
+/* ****************************************
+ * ESTILOS QUE POSEEN LAS OFERTAS
+ * ****************************************
+
+/*Ofertas*/
+div#ofertas {
+    width: 100%;
+    border: none;
+}
+
+div.offert-izquieda {
+    width: 40%;
+    text-align: center;
+}
+
+img.gif-oferta {
+    width: 35%;
+}
+
+img.alpaso-offer {
+    width: 75%;
+}
+
+div.combos {
+    text-align: center;
+}
+
+/*estilos para las imagenes de ofertas*/
+img.combos-imagenes {
+    width: 87%;
+}
+
+/*estilos para las formas de pago*/
+div#forma-pago {
+    width: 100%;
+    border: none;
+    background-color: #4eb765;
+    cellspacing: 0;
+}
+
+div.encabezado-pago {
+    text-align: center;
+    font-weight: bold;
+}
+
+div.celda-forma-pago {
+    width: 722%;
+    text-align: center;
+}
+
+img.imagen-forma-pago {
+    width: 35%;
+}
+
+div.nombre-pago {
+    background-color: #65cb7b;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Parte trabajado con divs*/
+div#ofertas {
+    margin-left: 0px;
+}
+
+div#div1 {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    float: left;
+}
+
+div#combo {
+    display: flex;
+    margin-left: 75px;
+    width: 55%;
+    float: left;
+}
+
+div#forma-pago {
+    padding: 0.8px 0px;
+    text-align: center;
+    margin-top: 43%;
+    background-color: #4eb765;
+}
+
+div#colum-pago {
+    float: left;
+    width: 100%;
+    background-color: #4eb765;
+}
+
+div.celda-forma-pago1 {
+    width: 33%;
+    float: left;
+    background-color: #4eb765;
+    margin-left: 220px;
+}
+
+div.celda-forma-pago3 {
+    width: 33%;
+    float: left;
+    background-color: #4eb765;
+}
+
+/*  Fin de estilos de Daniel */
+
+/* ****************************************
+ * ****************************************
+ * ****************************************
+/* 
+ * Estilos trabajados por David
+ * 
+
+/* ****************************************
+ * ESTILOS QUE POSEE NOSOTROS
+ * ****************************************/
+section.nosotros {
+    margin-top: 5px;
+    width: 100%;
+    height: 850px;
+}
+
+div.titulo-nosotros h1 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 37px;
+}
+
+article.cajas-contenido {
+    float: left;
+    width: 32%;
+    margin: 8px;
+}
+
+div.imagen img {
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 85px;
+    padding: 4px;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido-parrafo {
+    width: 84.5%;
+    text-align: justify;
+    font-size: 17.8px;
+    margin: auto;
+}
+
+/*  Fin de estilos de David */
+
+/* ****************************************
+ * ****************************************
+ * ****************************************
+
+/* 
+ * Estilos trabajados por Abdiel
+ * 
+
+/* ****************************************
+ * ESTILOS QUE POSEE ATRACTORES
+ * ****************************************
+
+/*Atractores*/
+
+/*-- ESTRUCTURA  | ECOLOGICO*/
+section#ecologico {
+    border-spacing: 0;
+    border: none;
+    width: 100%;
+    background-color: #defce3;
+}
+
+div.encabezado {
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+div.titulo-eco1 {
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+
+div.titulo-eco2 {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+img.paso-ecologico {
+    width: 15%;
+}
+
+div.imagenes-ecos {
+    background-color: #defce3;
+    width: 100%;
+    float: left;
+}
+
+div.tamaño-celda-imagen-eco {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+img.tamaño-biodegradable {
+    width: 40%;
+}
+
+img.tamaño-ambiente {
+    width: 40%;
+}
+
+img.tamaño-reforestacion {
+    width: 43%;
+}
+
+div.contenedor-titulos-eco {
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-color: #defce3;
+}
+
+div.subtitulos-e {
+    width: 33.3%;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+}
+
+div.contenedor-descripcion-eco {
+    background-color: #defce3;
+    width: 100%;
+    height: 25%;
+    float: left;
+}
+
+div.descripcion-e {
+    width: 31.5%;
+    text-align: center;
+    float: left;
+    text-align: justify;
+    margin: 10px;
+}
+
+/*------calidad------------*/
+section#calidad {
+    border-spacing: 0;
+    border: none;
+    width: 100%;
+    background-color: #D6F1FA;
+}
+
+div.contenedor-calidad {
+    width: 100%;
+    background-color: #D6F1FA;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.tamaño-celda-imagen-calidad {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+img.tamaño-fresca {
+    width: 45%;
+}
+
+img.tamaño-calidad {
+    width: 50%;
+}
+
+img.tamaño-proveedor {
+    width: 60%;
+}
+
+div.subtitulos-c {
+    width: 33.3%;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+}
+
+div.centrar {
+    text-align: center;
+}
+
+div.descripcion-calidad {
+    text-align: justify;
+    width: 31.5%;
+    margin: 10px;
+    float: left;
+}
+
+div.negrita-centro {
+    font-weight: bold;
+    text-align: center;
+}
+
+/*---------------Alimentaria------------*/
+section#ayuda-alimentaria {
+    border: 0;
+    width: 100%;
+    background-color: #F5DCC0;
+}
+
+div.contenedor-alimentaria {
+    width: 100%;
+    float: left;
+    background-color: #F5DCC0;
+    margin-bottom: 20px;
+}
+
+div.imagen-alimentaria {
+    width: 28%;
+    float: left;
+    text-align: center;
+}
+
+img.donacion {
+    width: 55%;
+}
+
+div.descripcion-alimentaria {
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+
+/*  Fin de estilos de Abdiel */
+
+/* ****************************************
+ * ESTILOS QUE POSEE EL LOGIN
+ * ****************************************
+ */
+
+section#login {
+    margin: 0px auto;
+    text-align: center;
+}
+
+form.frmLogin {
+    margin: 30px 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+input.email, input.pw {
+    width: 280px;
+    border: 1px solid #000;
+    height: 20px;
+}
+
+form.frmLogin input.login-proceso {
+    border: none;
+    padding: 10px 30px;
+    background-color: #14213d;
+    color: #fff;
+    border-radius: 5px;
+}
+
+p.campos_alerta {
+    color: red;
+    font-size: 0.9em;
+    text-align: left;
+    margin-top: 0px;
+}
+
+form.frmLogin label {
+    display: block;
+}
+
+p.alerta {
+    background-color: palevioletred;
+    padding: 10px 5px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+}
+
+p.success {
+    background-color: lightgreen;
+    padding: 10px 5px;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}
+
+div.cont-db {
+    text-align: center;
+    margin: 20px 0px;
+    opacity: 0.5;
+}
+
+div.cont-db a {
+    text-decoration: none;
+}
+
+#login_img {
+    width: 10%;
+    margin-bottom: 15px;
+}

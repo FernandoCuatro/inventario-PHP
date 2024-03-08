@@ -1,0 +1,1244 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+ font-family: 'Roboto', sans-serif;
+ font-size: 16px;
+ overflow-x: hidden;
+}
+
+/* Estilos predeterminados para contenedores */
+
+div#vista {
+ padding-left: 250px;
+}
+
+div#contenido-general {
+ width: 100%;
+ position: relative;
+ margin-right: 0;
+}
+
+/* Estilos para el Sidebar del menú de navegación */
+
+div#menu-navegacion {
+ z-index: 1000;
+ position: fixed;
+ left: 250px;
+ width: 250px;
+ height: 100%;
+ margin-left: -250px;
+ overflow-y: auto;
+ background-color: #14213D;
+}
+
+div#menu-navegacion header {
+ background-color: #14213D;
+ margin: 10px 0px;
+ text-align: center;
+}
+
+div#menu-navegacion header a img {
+ width: 90%;
+}
+
+div#menu-navegacion ul.nav a {
+ background: none;
+ border-bottom: 1px solid #455A64;
+ color: #d0d0d0;
+ font-size: 14px;
+ padding: 16px 24px;
+}
+
+div#menu-navegacion ul.nav a:hover {
+ color: #fff;
+}
+
+div#menu-navegacion ul.nav a i {
+ margin-right: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+ font-family: 'Roboto', sans-serif;
+ font-size: 16px;
+ overflow-x: hidden;
+}
+
+/* Estilos predeterminados para contenedores */
+
+div#vista {
+ padding-left: 250px;
+}
+
+div#contenido-general {
+ width: 100%;
+ position: relative;
+ margin-right: 0;
+}
+
+/* Estilos para el Sidebar del menú de navegación */
+
+div#menu-navegacion {
+ z-index: 1000;
+ position: fixed;
+ left: 250px;
+ width: 250px;
+ height: 100%;
+ margin-left: -250px;
+ overflow-y: auto;
+ background-color: #14213D;
+}
+
+div#menu-navegacion header {
+ background-color: #14213D;
+ margin: 10px 0px;
+ text-align: center;
+}
+
+div#menu-navegacion header a img {
+ width: 90%;
+}
+
+div#menu-navegacion ul.nav a {
+ background: none;
+ border-bottom: 1px solid #455A64;
+ color: #d0d0d0;
+ font-size: 14px;
+ padding: 16px 24px;
+}
+
+div#menu-navegacion ul.nav a:hover {
+ color: #fff;
+}
+
+div#menu-navegacion ul.nav a i {
+ margin-right: 10px;
+}
+
+div.contenido-entrada {
+ width: 90%;
+ margin: 0px auto;
+}
+
+h1.nombre-proceso {
+ font-size: 2.5em;
+ color: #14213D;
+}
+
+h4.nombre-modulo {
+ font-size: 1.3em;
+ color: #000;
+}
+
+/* ESTILOS TRABAJADOS POR (*** Fernando ***) */
+
+form.pago_crear {
+ margin: 30px 0px;
+}
+
+div.contenido-input {
+ width: 33.3%;
+ float: left;
+}
+
+div.contenido-input label {
+ display: block;
+ font-size: 16px;
+ font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+select.rol_estado {
+ height: 30px;
+ width: 90%;
+ border: 2px solid #000;
+ border-radius: 5px;
+ font-weight: 500;
+}
+
+textarea.rol_descripcion,
+textarea.pago_descripcion {
+ resize: none;
+ height: 130px;
+ width: 325px;
+ border: 2px solid #000;
+ border-radius: 5px;
+ font-weight: 500;
+}
+
+div.contenedor-input {
+ text-align: right;
+ display: block;
+}
+
+div.contenedor-input input {
+ margin-top: 20%;
+ background-color: #14213D;
+ border: none;
+ color: #fff;
+ padding: 10px 30px;
+ border-radius: 5px;
+}
+
+p.campos_alerta {
+ color: red;
+ font-size: 0.9em;
+ text-align: left;
+ font-weight: bold;
+}
+
+/* ESTILOS TRABAJADOS POR (*** ABDIEL ***) */
+
+div.form-group {
+ margin: 20px auto;
+ width: 33.33%;
+ height: 50%;
+ float: left;
+}
+
+div.form-group label {
+ font-weight: bold;
+}
+
+div.form-group input,
+select {
+ width: 90%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ padding: 5px;
+ font-size: 15px;
+}
+
+select {
+ width: 100%;
+}
+
+input.editar {
+ margin-top: 225px;
+ margin-left: 800px;
+ border: none;
+ padding: 10px 30px;
+ background-color: #14213d;
+ color: #fff;
+ border-radius: 5px;
+ size: 40;
+}
+
+div.form-group {
+ margin: 20px auto;
+ width: 33.33%;
+ height: 50%;
+ float: left;
+}
+
+div.form-group label {
+ font-weight: bold;
+}
+
+select {
+ font-size: 14px;
+ height: 30px;
+ padding: 5px;
+ width: 225px;
+}
+
+div.form-group input,
+select,
+textarea {
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ resize: none;
+}
+
+input.editar {
+ margin-top: 125px;
+ margin-left: 800px;
+ border: none;
+ padding: 10px 30px;
+ background-color: #14213d;
+ color: #fff;
+ border-radius: 5px;
+ size: 40;
+}
+
+/* ESTILOS TRABAJADOS POR (*** Patricia ***) */
+
+div.formPago-metodo {
+ margin: 35px auto;
+}
+
+div.formPago-metodo label {
+ font-size: 15px;
+ padding-left: 5px;
+}
+
+div.formPago-metodo select {
+ width: 27%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+}
+
+/*label*/
+
+div.formPago-total {
+ width: 33.3%;
+ float: left;
+}
+
+div.formPago-Cliente {
+ width: 33.3%;
+ float: left;
+}
+
+div.formPago-vuelto {
+ width: 33.3%;
+ float: left;
+}
+
+div.formPago-total label {
+ font-size: 16px;
+ font-weight: 500;
+ padding-left: 5px;
+ margin-right: 33.3%;
+}
+
+div.formPago-Cliente label {
+ font-size: 16px;
+ font-weight: 500;
+ padding-left: 5px;
+ float: left;
+}
+
+div.formPago-vuelto label {
+ font-size: 16px;
+ font-weight: 500;
+ padding-left: 5px;
+ margin-left: 17%;
+}
+
+/*input*/
+
+div.formPago-total input {
+ width: 83.3%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+}
+
+div.formPago-Cliente input {
+ width: 83.3%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ margin-right: 30%;
+}
+
+div.formPago-vuelto input {
+ width: 83.3%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ margin-left: 17%;
+}
+
+/*alert*/
+
+div.formPago-Cliente p {
+ margin-left: 1%
+}
+
+div.formPago-vuelto p {
+ margin-left: 17%
+}
+
+/*select*/
+
+div.formEstado {
+ margin-top: 8%;
+}
+
+div.formPago-estado select {
+ width: 27%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ float: left;
+ margin-right: 50%;
+}
+
+/*button*/
+
+div.formEnviar button[type=submit] {
+ background-color: #14213D;
+ color: #FFFFFF;
+ margin: 8px 0px;
+ padding: 8px 15px;
+ border: none;
+ width: 15%;
+ border-radius: 8px;
+ margin: 15% auto;
+}
+
+/* ESTILOS TRABAJADOS POR (*** Magali ***) */
+
+div.editar-producto {
+ margin: 30px auto;
+}
+
+div.editar-producto label {
+ font-size: 15px;
+ padding-left: 5px;
+ float: left;
+ margin-right: 17%;
+}
+
+div.codigo-producto label {
+ font-size: 15px;
+ padding-left: 5px;
+}
+
+div.select-categoria select {
+ width: 30%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ float: left;
+ margin-right: 3%;
+}
+
+div.codigo-producto input {
+ width: 30%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+}
+
+div.nombre-producto label {
+ font-size: 15px;
+ padding-left: 5px;
+ float: left;
+ margin-right: 16%;
+}
+
+div.precio label {
+ font-size: 15px;
+ padding-left: 5px;
+}
+
+div.nombre-producto input {
+ width: 30%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ float: left;
+ margin-right: 3%;
+}
+
+div.precio-producto input {
+ width: 30%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+}
+
+div.Fecha-fabricacion label {
+ font-size: 15px;
+ padding-left: 5px;
+ float: left;
+ margin-right: 16%;
+}
+
+div.Fecha-vencimiento label {
+ font-size: 15px;
+ padding-left: 5px;
+ float: left;
+ margin-right: 15%;
+}
+
+div.Fecha-fabri input {
+ width: 30%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ float: left;
+ margin-right: 3%;
+}
+
+div.Fecha-venc input {
+ width: 30%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ float: left;
+}
+
+div.imagen-produ {
+ border: 0px solid #000;
+ width: 95px;
+ height: 55px;
+ margin-left: 66%;
+ text-align: center;
+}
+
+div.Descripcion label {
+ font-size: 15px;
+ padding-left: 5px;
+ float: left;
+ margin-right: 14%;
+}
+
+div.Estado label {
+ font-size: 15px;
+ padding-left: 5px;
+}
+
+div.descrip_txt textarea {
+ width: 275px;
+ border-radius: 5px;
+ border: 2px solid;
+ resize: none;
+ float: left;
+ margin-right: 3%;
+}
+
+div.seleccion_estado_producto select {
+ width: 30%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+ background-color: #fff;
+ float: left;
+ margin-left: 1.4%;
+}
+
+div.Imagen label {
+ padding-left: 2.6%;
+}
+
+div.Enviar button[type=submit] {
+ background-color: #14213D;
+ color: #FFFFFF;
+ padding: 8px 15px;
+ border: none;
+ width: 15%;
+ border-radius: 8px;
+ margin-top: 100px;
+ margin-left: 12%;
+}
+
+p.codigo_producto {
+ margin-left: 33%;
+}
+
+p.precio_producto {
+ margin-left: 33%;
+}
+
+/* ESTILOS TRABAJADOS POR (*** Edwin Bernal ***) */
+
+.formulario {
+ margin: 27px auto;
+}
+
+div.form-group-rol select {
+ width: 75%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.primer-bloque {
+ display: grid;
+ grid-template-columns: 35% 35%;
+}
+
+div.form-inputs-nombre input {
+ width: 75%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.form-inputs-correo input {
+ width: 75%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.form-parrafo-nombre p {
+ font-size: 12px;
+}
+
+div.form-parrafo-correo p {
+ font-size: 12px;
+}
+
+div.segundo-bloque {
+ display: grid;
+ grid-template-columns: 35% 35% 35%;
+}
+
+div.form-inputs-dui input {
+ width: 75%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.form-inputs-nit input {
+ width: 75%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.form-inputs-telefono input {
+ width: 75%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.form-parrafo-dui p {
+ font-size: 12px;
+}
+
+div.form-parrafo-nit p {
+ font-size: 12px;
+}
+
+div.form-parrafo-telefono p {
+ font-size: 12px;
+}
+
+div.tercer-bloque {
+ display: grid;
+ grid-template-columns: 35%;
+}
+
+div.form-inputs-contraseña input {
+ width: 75%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.form-parrafo-contraseña p {
+ font-size: 12px;
+}
+
+div.form-inputs-contraseña2 input {
+ width: 27%;
+ height: 30px;
+ border: 2px solid #000;
+ border-radius: 7px;
+}
+
+div.form-parrafo-contraseña-2 p {
+ font-size: 12px;
+}
+
+div.form-button-guardar button[type=submit] {
+ background-color: #14213D;
+ color: #FFFFFF;
+ margin: 8px 0px;
+ padding: 8px 15px;
+ border: none;
+ width: 20%;
+ border-radius: 8px;
+ margin-left: 76%;
+}
+
+/* ESTILOS TRABAJADOS POR (*** DAVID AYALA ***) */
+
+/* Estilos para el contenedor principal */
+
+div.contenedor-comentarios-general {
+ margin-top: 45px;
+ width: 100%;
+ height: 490px;
+}
+
+/* Estilos para el contenedor de califiaciones para comentarios */
+
+div.contenedor-comentarios-rango {
+ width: 100%;
+ height: 80px;
+}
+
+h5.comentario-calificacion-rango {
+ font-size: 1em;
+ color: #000;
+}
+
+input.calificacion {
+ opacity: 0;
+ position: absolute;
+}
+
+input.calificacion,
+label.calificacion-label {
+ display: inline-block;
+ vertical-align: middle;
+ margin: 5px;
+ cursor: pointer;
+}
+
+label.calificacion-label {
+ position: relative;
+}
+
+input.calificacion+label.calificacion-label:before {
+ content: '';
+ background: #fff;
+ border: 2px solid #14213D;
+ display: inline-block;
+ vertical-align: middle;
+ width: 18px;
+ height: 18px;
+ padding: 3px;
+ margin-right: 12px;
+ text-align: center;
+}
+
+input.calificacion+label.calificacion-label:before {
+ border-radius: 50%;
+}
+
+.calificacion:checked+.calificacion-label:before {
+ background: #14213D;
+ box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+/* Estilos del contenedor para escribir comentarios */
+
+div.contenedor-comentarios-escribir {
+ width: 70%;
+ height: 260px;
+ float: left;
+}
+
+h5.escribir-comentario {
+ font-size: 1em;
+ color: #000;
+}
+
+textarea.comentario-contenido {
+ width: 90%;
+ height: 200px;
+ border: none;
+ border: 3px solid #14213D;
+ border-radius: 7px;
+ font-size: 1em;
+ color: #14213D;
+ resize: none;
+ padding: 10px;
+}
+
+div.contenedor-comentario-estado {
+ width: 30%;
+ height: 260px;
+ float: left;
+}
+
+h5.estado-comentario-opciones {
+ font-size: 1em;
+ color: #14213D;
+}
+
+select.estado-comentario {
+ width: 100%;
+ height: 40px;
+ border: none;
+ border: 3px solid #14213D;
+ border-radius: 7px;
+ font-size: 1em;
+ color: #14213D;
+}
+
+button.btn-comenatrio-guardar {
+ margin-top: 25px;
+ width: 130px;
+ height: 40px;
+ font-size: 20px;
+ color: white;
+ background-color: #14213D;
+ border: none;
+ border-radius: 7px;
+ float: right;
+ margin-right: -10px;
+}
+
+/* ESTILOS TRABAJADOS POR (*** Daniel ***) */
+
+select.select-usuario {
+ border-radius: 7px;
+ width: 250px;
+ border: 2px solid black;
+}
+
+input.fomulario-input {
+ border-radius: 7px;
+ width: 250px;
+ border: 2px solid black;
+}
+
+div.form-label {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 5px;
+}
+
+div.form-label2 {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 15px;
+}
+
+p.formulario-input-error {
+ font-size: 12px;
+ margin-bottom: 0;
+ color: red;
+}
+
+div.btn-usuario-editar button[type="submit"] {
+ margin-top: 25px;
+ margin-right: 65px;
+ width: 130px;
+ height: 45px;
+ font-size: 20px;
+ color: white;
+ background-color: #14213D;
+ border: none;
+ border-radius: 7px;
+ float: right;
+}
+
+/* ESTILOS TRABAJADOS POR (*** Diego ***) */
+
+form.producto-crear {
+ margin: 30px 0px;
+}
+
+.imput-producto-crear {
+ float: left;
+ width: 33.33%;
+}
+
+.imput-producto-crear label {
+ display: block;
+ font-size: 16px;
+ font-weight: 500;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select.sl-producto-crear {
+ height: 30px;
+ width: 90%;
+ border: 2px solid #000;
+ border-radius: 5px;
+ font-weight: 500;
+}
+
+textarea.tt-producto-crear {
+ resize: none;
+ height: 100px;
+ width: 300px;
+ border: 2px solid #000;
+ border-radius: 5px;
+ font-weight: 500;
+}
+
+div.guardar-producto-crear {
+ text-align: right;
+ display: block;
+}
+
+.examinar-producto-crear {
+ border: 2px solid #000;
+ padding: 3px 6px;
+ cursor: pointer;
+ color: #000;
+ font-weight: 500;
+ border-radius: 5px;
+}
+
+div.guardar-producto-crear input {
+ margin-top: 20%;
+ background-color: #14213D;
+ border: none;
+ color: #fff;
+ padding: 10px 30px;
+ border-radius: 5px;
+}
+
+.error-producto-crear {
+ font-size: 12px;
+ margin-bottom: 0;
+ color: red;
+}
+
+a.btn-add {
+ background-color: #14213D;
+ padding: 10px;
+ color: white;
+ border-radius: 5px;
+}
+
+div.contenedor-tabla {
+ margin-top: 30px;
+}
+
+table.contenedor-datos {
+ width: 100%;
+}
+
+tr.formato-celda {
+ height: 40px;
+}
+
+a.editar {
+ padding: 7px;
+ background-color: #40e0d0;
+ border-radius: 5px;
+ color: black;
+}
+
+a.borrar {
+ padding: 7px;
+ background-color: red;
+ border-radius: 5px;
+ color: white;
+}
+
+a.desabilitado {
+ pointer-events: none; 
+ cursor: default; 
+}
+
+div.contenido-compra {
+ width: 100%;
+ height: 100%;
+}
+
+div.productos {
+ width: 69%;
+ height: 100%;
+ float: left;
+ margin-bottom: 20px;
+}
+
+section.carrousel{
+ overflow: scroll;
+ padding-left: 10px;
+ position: relative;
+}
+section.carrousel form{
+ overflow: hidden;
+ display: inline-block;
+ cursor: pointer;
+ position: relative;
+}
+div.carrousel-complemet {
+ overflow: hidden;
+ display: inline-block;
+ cursor: pointer;
+ position: relative;
+ padding-right: 10px;
+}
+p.categorias-tittle {
+ font-family: 'Roboto', sans-serif;
+ font-size: 0.8em;
+ text-align: center;
+ margin: 0px;
+ padding: 0px;
+ text-transform: uppercase;
+}
+div.carrousel-container{
+ white-space: nowrap;
+ margin: 0px 0px 0px 0px;
+}
+div.carrousel-item{
+ background-color: palevioletred;
+ width: 150px;
+ height: 200px;
+ border-radius: 20px;
+ overflow: hidden;
+ display: inline-block;
+ cursor: pointer;
+ position: relative;
+}
+img.carrousel-item-img{
+ width: 150px;
+ height: 200px;
+ object-fit: cover;
+}
+div.carrousel-item-details{
+ background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+ font-size: 10px;
+ opacity: 0;
+ transition: 450ms opacity;
+ padding: 10px;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ right: 0px;
+ bottom: 0px;
+}
+.carrousel-item-details {
+ align-items: center;
+ background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+ display: flex;
+ font-size: 0.9em;
+ flex-direction: column;
+ justify-content: flex-end;
+ position: absolute;
+ right: 0;
+ top: 0;
+ font-weight: bold;
+}
+div.carrousel-item div.carrousel-item-details {
+ opacity: 1;
+}
+p.carrousel-item-details--title {
+ color: #fff;
+ margin: 5px 0px 0px 0px;
+ font-size: 1.5em;
+ text-align: right;
+}
+div.number-input-detail input[type="number"] {
+ -webkit-appearance: textfield;
+ -moz-appearance: textfield;
+ appearance: textfield;
+}
+div.number-input-detail input[type=number]::-webkit-inner-spin-button,
+div.number-input-detail input[type=number]::-webkit-outer-spin-button {
+ -webkit-appearance: none;
+}
+div.number-input-detail {
+ border: none;
+ display: inline-flex;
+}
+div.number-input-detail,
+div.number-input-detail * {
+ box-sizing: border-box;
+}
+div.number-input-detail button {
+ outline:none;
+ -webkit-appearance: none;
+ background-color: #eee;
+ border: none;
+ align-items: center;
+ justify-content: center;
+ width: 20px;
+ cursor: pointer;
+ margin: 0;
+ position: relative;
+}
+div.number-input-detail button:before,
+div.number-input-detail button:after {
+display: inline-block;
+position: absolute;
+content: '';
+ width: 10px;
+ height: 2px;
+ background-color: #212121;
+ transform: translate(-50%, -50%);
+}
+div.number-input-detail button.plus:after {
+ transform: translate(-50%, -50%) rotate(90deg);
+}
+div.number-input-detail input[type=number] {
+ width: 30px;
+ border: none;
+ font-size: 2rem;
+ text-align: center;
+ border-radius: 0px;
+}
+div.cart {
+ float: right;
+ padding-left: 5px;
+}
+div.cart button {
+ font-size: 1.4em;
+ width: 32px;
+ height: 32px;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+ border-radius: 50%;
+ border: none;
+ background-color: #eee;
+}
+
+/* Formatos a los SCROLL */
+::-webkit-scrollbar-thumb {
+ background: #ccc;
+ border-radius: 4px;
+}
+::-webkit-scrollbar {
+ width: 8px; 
+ height: 8px;   
+ background:rgba(255,255,255,.4);
+ border-radius: 4px;
+}
+::-webkit-scrollbar:hover {
+ background: #b3b3b3;
+ box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar:hover:active {
+ background: #999;
+}
+
+h2.categories-title {
+ color: #14213D;
+}
+
+div.factura {
+ background: #eee;
+ width: 31%;
+ height: 450px;
+ float: left;
+ border-radius: 10px;
+}
+
+h2.factura-tittle {
+ text-align: center;
+ font-size: 1.5em;
+ color: black;
+}
+
+p.factura-descripcion {
+ font-size: .8em;
+ text-align: center;
+ margin-top: 10px;
+}
+
+div.contenedor-factura {
+ height: 300px;
+ width: 100%;
+ background: #f1f1f1;
+ overflow-y: scroll;
+}
+
+div.contenido-factura {
+ height: auto;
+}
+
+.texto {
+ padding:4px;
+ background:#fff;
+}
+
+div.producto {
+ display: flex;
+ align-items: center;
+ margin: 5px 0px;
+ background-color: #fff;
+}
+
+div.prod-cont-img {
+ width: 25%;
+}
+
+img.cont-img {
+ width: 100%;
+ border-radius: 3px;
+}
+
+div.prod-nombre {
+ width: 40%;
+ text-align: center;
+}
+
+div.prod-cont button {
+ text-align: center;
+ display: block;
+ margin: 10px auto;
+ border: 1px solid red;
+ border-radius: 5px;
+ color: red;
+ font-weight: bold;
+ background-color: white;
+}
+
+p.vacio {
+ text-align: center;
+ margin: 40% 0px;
+ font-size: 1.0em;
+ font-weight: bold;
+ color: red;
+}
+
+p.total {
+ margin: 10px 0px;
+ text-align: center;
+}
+
+p.total span {
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+a.procesar {
+ background-color: green;
+ padding: 10px 5px;
+ color: white;
+ border-radius: 5px;
+}
+
+p.factura_activa {
+ text-align: center;
+ background-color: lightgreen;
+ color: #000;
+ padding: 10px 0px;
+ margin: 0px 10px;
+ font-weight: bold;
+ border-radius: 10px;
+ border: 2px solid darkgreen;
+}
+
+td.formato-pago {
+ width: 10%;
+}
+
+td.formato-pago-factura {
+ width: 7%;
+ text-align: center;
+}
+
+tr.formato-pago-celda {
+ height: 80px;
+}
+
+tr.formato-producto {
+ border: 1px solid black;
+}
+
+td.formato-descripcion {
+ padding: 10px 0px;
+}
+
+a.pdf {
+ color: red;
+ font-size: 1.5em;
+}
